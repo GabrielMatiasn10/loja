@@ -11,3 +11,12 @@
 body {
   background-color: aquamarine;
 }
+
+.conteiner {
+  max-width: 1100%;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: rgb(248, 5, 5);
+}
