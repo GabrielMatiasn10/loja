@@ -12,6 +12,7 @@ function SearchBar() {
       <form className="search-bar">
         <input
           className="search__input"
+          value={searchValue}
           type="search"
           placeholder="Buscar casa"
           onChange={({target}) => setSearchValue(target.value)}
