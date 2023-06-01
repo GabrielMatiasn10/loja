@@ -18,6 +18,8 @@ function SearchBar() {
           onChange={({target}) => setSearchValue(target.value)}
           required
         />
+
+        
         {searchValue}
         <button type="submit" className="search__button">
           <BiSearchAlt />
