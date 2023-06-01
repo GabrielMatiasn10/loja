@@ -8,8 +8,9 @@ function Header() {
     <header className="header">
       <div className="container">
         <SearchBar />
-        <button>
+        <button type="button" className="cart__button" >
           <AiOutlineShoppingCart />
+          <span className="cart-status">1</span>
         </button>
       </div>
     </header>
