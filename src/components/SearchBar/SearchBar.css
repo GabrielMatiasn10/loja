@@ -31,5 +31,12 @@
     align-items: center;
     justify-content: center;
     color: #333;
+    padding: 13px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: 500px;
+    border-right: 1px solid #ddd;
     
   }
